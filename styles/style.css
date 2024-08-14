@@ -5,19 +5,7 @@ body{
     font-style: normal;
 }
 
-
-/* shared style  */
-.btn-primary{
-    background:#F15B22;
-    color:#FFFFFF;
-    border-radius: 5px;
-    height:64px;
-    width:160px;
-    border:0;
-    font-size: 20px;
-    font-weight: 700;
-}
-
+x
 .section-title{
     font-size: 40px;
     font-weight: 700;
@@ -28,8 +16,6 @@ body{
     color:#444343;
     padding: 20px 0px;
 }
-
-/* header related style  */
 
 .header{
     background-image: url('../images/banner/banner1.png');
@@ -57,6 +43,8 @@ main{
     margin: 0 auto;
 }
 
+/* .failures style  */
+
 .failures-container{
     display: flex;
     justify-content:space-between;
@@ -80,6 +68,8 @@ main{
 .check-color{
     color: #16D887;
 }
+/* plan style ///////////////// */
+
 
 .plan-img{
     display: flex;
@@ -114,6 +104,33 @@ main{
     margin:100px;
 }
 
+/* gradient section style */
+
+.gradient-container{
+    background: url('../images/watch.png');
+    height: 300px;
+}
+.gradient-head{
+    max-width: 500px;
+    padding: 50px 230px 30px 50px;
+}
+.gradient-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.gradient-btn{
+    color:#F15B22;
+    background:#FFFFFF;
+    border-radius: 5px;
+    height:64px;
+    width:160px;
+    border:0;
+    font-size: 20px;
+    font-weight: 700;
+
+    
+}
 
 
 
